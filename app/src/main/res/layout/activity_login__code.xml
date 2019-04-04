@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NIM   : 10116463 -->
+<!--Nama  : Mochamad Fajar Ismatulloh -->
+<!--Kelas : AKB-11 -->
+<!--TGL   : 04/04/2019-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitetree"
+    android:orientation="vertical"
+    tools:context=".Welcome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="24dp"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:id="@+id/judulkode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/judul_kode"
+            android:textColor="@color/Hitam"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judulkode"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/ketkode"
+            android:textColor="@color/Hitam"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/isian"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/keterangan"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rubik_regular"
+            android:inputType="text"
+            android:text="A1B2C3"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:background="@drawable/edittextrounded"/>
+
+        <TextView
+            android:id="@+id/ket2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isian"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/ket2"
+            android:textAlignment="center"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/masuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ket2"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/buttonrounded1"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/btnMasuk"
+            android:textAllCaps="false"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:background="@drawable/border"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/belum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/rubik_regular"
+            android:text="Belum punya kode keluarga?"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnBeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/belum"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/buttonrounded2"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@string/btnBeli"
+            android:textAllCaps="false"
+            android:textColor="@color/whitetree"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout>

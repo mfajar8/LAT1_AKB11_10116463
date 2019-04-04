@@ -1,0 +1,19 @@
+<resources>
+    <!--NIM   : 10116463 -->
+    <!--Nama  : Mochamad Fajar Ismatulloh -->
+    <!--Kelas : AKB-11 -->
+    <!--TGL   : 04/04/2019-->
+    <string name="app_name">LAT1_AKB11_10116463</string>
+    <string name="mulai">Mulai</string>
+    <string name="judul">Monitory Membantu Anda\nMengontrol HP Anak</string>
+    <string name="judul_kode">Kode Keluarga</string>
+    <string name="ketkode">Ketikkan kode keluarga yang Ayah Bunda miliki disini</string>
+    <string name="ket2">Dengan menekan tombol masuk berarti Anda menyetujui Ketentuan Pengguna dan Kebijakan Data Kami</string>
+    <string name="btnMasuk">Masuk</string>
+    <string name="btnBeli">Beli Kode Keluarga Disini</string>
+    <string name="hintnama">Contoh : Budi</string>
+    <string name="nama">Nama Panggilan Kamu</string>
+    <string name="umur">Umur Kamu</string>
+    <string name="btnNext">Selanjutnya</string>
+    <string name="btnOke">Oke</string>
+</resources>
